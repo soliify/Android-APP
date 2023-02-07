@@ -7,7 +7,7 @@ title = SampleApp
 package.name = sampleapk
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.novfensec
+package.domain = org.test
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -33,11 +33,11 @@ version = 0.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
-# version.filename = %(source.dir)s/main.py
+# version.filename = %(source.dir)s/main.pyc
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1
+requirements = python3,kivy==2.1.0,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
